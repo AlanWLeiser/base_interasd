@@ -6,7 +6,7 @@ import { criarFormulario } from '../../utils/formulario'
 import { useAuth } from '../../hooks/useAuth'
 
 export default function Formulario() {
-    const { user, token } = useAuth()
+    
     const router = useRouter()
 
     const [formData, setFormData] = useState({
